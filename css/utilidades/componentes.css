@@ -20,10 +20,21 @@
     text-transform: uppercase;
     font-family: 'poppins';
     font-weight: 600;
+    max-width: max-content;
+    align-self: center;
  }
 
  .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);
+ }
+
+ .botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+ }
+
+ .botao.secundario:hover {
+  background: var(--cor-9);
  }
 
  .link {
